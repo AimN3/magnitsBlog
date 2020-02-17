@@ -13,7 +13,7 @@ class DrumKit {                            // два класса основно
 
 class DrumKitTestDrive {
 	public static void main (String[] args {
-		DrumKit d = new DrumKit;    // создается новый объект d типа DrumKit, i.e в переменной с именем d лежит ссылка на объект
+		DrumKit d = new DrumKit();    // создается новый объект d типа DrumKit, i.e в переменной с именем d лежит ссылка на объект
 		d.playSnare();  //используя объект на который ссылается переменная d запусткаем метод
 		d.snare = false;    // меняем переменную snare для объекта 
 		d.playTopHat();    // запустили метод
